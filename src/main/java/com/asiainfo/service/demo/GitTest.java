@@ -6,6 +6,7 @@ public class GitTest {
         test02();
         test03();
         test04();
+        test05();
         test06();
     }
 
@@ -27,5 +28,9 @@ public class GitTest {
 
     private static void test06() {
         System.out.println("GitTest.test02 -- master -- 01");
+    }
+
+    private static void test05() {
+        System.out.println("GitTest.test02 -- hot-fix -- 2");
     }
 }
