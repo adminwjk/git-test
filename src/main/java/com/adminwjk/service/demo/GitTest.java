@@ -1,4 +1,4 @@
-package com.asiainfo.service.demo;
+package com.adminwjk.service.demo;
 
 public class GitTest {
     public static void main(String[] args) {
