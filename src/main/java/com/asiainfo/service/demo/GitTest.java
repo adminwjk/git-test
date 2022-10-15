@@ -4,7 +4,8 @@ public class GitTest {
     public static void main(String[] args) {
         test01();
         test02();
-        test02();
+        test03();
+        test04();
     }
 
     private static void test01() {
@@ -17,5 +18,9 @@ public class GitTest {
 
     private static void test03() {
         System.out.println("GitTest.test02");
+    }
+
+    private static void test04() {
+        System.out.println("GitTest.test02 -- hot-fix");
     }
 }
