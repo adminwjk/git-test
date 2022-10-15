@@ -8,6 +8,7 @@ public class GitTest {
         test04();
         test05();
         test06();
+        test07();
     }
 
     private static void test01() {
@@ -32,5 +33,9 @@ public class GitTest {
 
     private static void test05() {
         System.out.println("GitTest.test02 -- hot-fix -- 2");
+    }
+
+    private static void test07() {
+        System.out.println("GitTest.test02 -- GitHub-Push-Test -- 2");
     }
 }
